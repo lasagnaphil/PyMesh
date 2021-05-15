@@ -14,7 +14,7 @@ import sys
 def get_third_party_dependencies():
     return ["cgal", "cork", "eigen",
         "tetgen", "triangle", "qhull", "clipper", "draco",
-        "tbb", "mmg", "json"]
+        "tbb", "json"]
 
 def parse_args():
     parser = argparse.ArgumentParser(__doc__);
